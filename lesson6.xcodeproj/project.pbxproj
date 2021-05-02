@@ -14,6 +14,7 @@
 		FA839F07263EE13800D11724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA839F06263EE13800D11724 /* Assets.xcassets */; };
 		FA839F0A263EE13800D11724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA839F08263EE13800D11724 /* LaunchScreen.storyboard */; };
 		FA839F0D263EE13800D11724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA839F0C263EE13800D11724 /* main.m */; };
+		FA839F16263EE3EE00D11724 /* Arithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = FA839F15263EE3EE00D11724 /* Arithmetic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FA839F09263EE13800D11724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA839F0B263EE13800D11724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA839F0C263EE13800D11724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA839F14263EE3EE00D11724 /* Arithmetic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arithmetic.h; sourceTree = "<group>"; };
+		FA839F15263EE3EE00D11724 /* Arithmetic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arithmetic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				FA839F08263EE13800D11724 /* LaunchScreen.storyboard */,
 				FA839F0B263EE13800D11724 /* Info.plist */,
 				FA839F0C263EE13800D11724 /* main.m */,
+				FA839F14263EE3EE00D11724 /* Arithmetic.h */,
+				FA839F15263EE3EE00D11724 /* Arithmetic.m */,
 			);
 			path = lesson6;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA839F16263EE3EE00D11724 /* Arithmetic.m in Sources */,
 				FA839F02263EE12500D11724 /* ViewController.m in Sources */,
 				FA839EFC263EE12500D11724 /* AppDelegate.m in Sources */,
 				FA839F0D263EE13800D11724 /* main.m in Sources */,
